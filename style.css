@@ -1,0 +1,165 @@
+.abt {
+    top: 15px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    gap: 2px;
+    width: 100vw;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.abt ul {
+    gap: 20px;
+    font-size: 15px;
+    list-style: none;
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+}
+
+.img1 {
+    width: 100vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 img {
+    width: 100vw;
+    height: 85vh;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+.img1 h2 {
+    font-style: normal;
+    font-size: 50px;
+    gap: 30px;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    top: 52%;
+    left: 49%;
+    position: absolute;
+}
+
+.bt1 {
+    width: 120px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    border: black;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 43%;
+    position: absolute;
+}
+
+.bt2 {
+    width: 100px;
+    padding: 10px;
+    color: black;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    border: none;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 52%;
+    position: absolute;
+}
+
+.divide {
+    margin-top:10px;
+    width: 100vw;
+    height: 115vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.img2 {
+    background-color: white;
+    width: 44.5rem;
+    display: flex;
+    aspect-ratio: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img2 h2 {
+    background-color: white;
+    font-style: normal;
+    font-size: 33px;
+    transform: translate(-25%, -25%);
+    top: 107%;
+    position: absolute;
+    left: 20%;
+}
+
+.links a {
+    width: 150px;
+    color: blue;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2997ff;
+}
+
+.img3 {
+    background-color: white;
+    width: 44.5rem;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img3 h2 {
+    font-size: 30px;
+    font-style: normal;
+    background-color: white;
+    transform: translate(-25%, -25%);
+    top: 108%;
+    position: absolute;
+    right: 11%;
+}
+
+.img3 a {
+    width: 150px;
+    color: blue;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2997ff;
+}
+.info {
+    margin-top:10px;
+    width:100vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: palevioletred;
+}
+.info ul{
+    display:flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-style:normal;
+    gap:30px;
+    font-size:18px;
+    cursor: pointer;
+}
